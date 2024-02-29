@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--<link rel="stylesheet" href="./bootstrap/css/bootstrap.css">-->
+	
+	<!--CDN-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6e677d0979.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <!--Top Header-->
+    <div class="container-fluid topHeader-color">
+        <div class="row topHeader-textColor">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12 text-center">
+                <h6>১৭ এস আই রোড, নবীগঞ্জ, বন্দর, নারায়ণগঞ্জ, বাংলাদেশ</h6>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12 text-center">
+                <h6>২০০০ টাকার উপরে অর্ডার করলে ডেলিভারী ফ্রি; ফোন: ০১৮১৮৯৭১৫৩১</h6>
+            </div>
+        </div>
+    </div>
+
+    <!--Navbar-->
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary text-Colour position-s sticky-top topHeader-bg">
+        <div class="container-fluid topHeader-bg">
+            <a href="#" class="text-decoration-none text-white fs-3 font-weight-bold fontStyle me-5">
+                <img class="nav-logo" src="leaf-icon-png-2.png" alt="">নবীগঞ্জ নার্সারি
+            </a>
+          <button class="navbar-toggler text-Colour border-Colour" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="text-white"><i class="fa-solid fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active fontStyle text-white font-weight-bold " aria-current="page" href="#">দোকান</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fontStyle text-white font-weight-bold" href="#">সাধারণ জিজ্ঞাসা সমূহ</a>
+              </li>
+              <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle fontStyle text-white font-weight-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    ক্যাটাগরি অনুসারে দেখুন
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item fontStyle text-success font-weight-bold" href="#">🌲 কাঠের চারাগাছ</a></li>
+                    <li><a class="dropdown-item fontStyle text-success font-weight-bold" href="#">🎋 ছোট আকৃতির কাঠের চারা সমূহ</a></li>
+                    <li><a class="dropdown-item fontStyle text-success font-weight-bold" href="#">🍋 ফলের চারাগাছ</a></li>
+                    <li><a class="dropdown-item fontStyle text-success font-weight-bold" href="#">🍏 বারোমাসি ফলের চারাগাছ</a></li>
+                    <li><a class="dropdown-item fontStyle text-success font-weight-bold" href="#">🍒 ফলসহ চারাগাছ</a></li>
+                    <li><a class="dropdown-item fontStyle text-success font-weight-bold" href="#">🍋 দেশি ফলের চারাগাছ</a></li>
+                    <li><a class="dropdown-item fontStyle text-success font-weight-bold" href="#">🥑 বিদেশী ফলের চারাগাছ</a></li>
+                    <li><a class="dropdown-item fontStyle text-success font-weight-bold" href="#">🥭 আমের চারাগাছ</a></li>
+                    <li><a class="dropdown-item fontStyle text-success font-weight-bold" href="#">💐 ফুলের চারাগাছ</a></li>
+                    <li><a class="dropdown-item fontStyle text-success font-weight-bold" href="#">🌺 বিদেশি চারাগাছ সমূহ</a></li>
+                    <li><a class="dropdown-item fontStyle text-success font-weight-bold" href="#">🌵 ইনডোর চারা সমূহ</a></li>
+                    <li><a class="dropdown-item fontStyle text-success font-weight-bold" href="#">🥒 আউটডোর চারাগাছ সমূহ</a></li>
+                    <li><a class="dropdown-item fontStyle text-success font-weight-bold" href="#">🍂 মসলা জাতীয় গাছের চারা সমূহ</a></li>
+                    <li><a class="dropdown-item fontStyle text-success font-weight-bold" href="#">🌵 বনসাই চারাগাছ</a></li>
+                    <li><a class="dropdown-item fontStyle text-success font-weight-bold" href="#">🌱 বীজ সমূহ</a></li>
+                    <li><a class="dropdown-item fontStyle text-success font-weight-bold" href="#">🗑️ অন্যান্য</a></li>
+                 
+                </ul>
+              </li>
+             
+            </ul>
+            <form class="d-flex fontStyle text-success font-weight-bold" role="search">
+              <input style="border: 1px solid #6cbe84 !important;" class="form-control me-2" type="search" placeholder="অনুসন্ধান" aria-label="Search">
+              <button id="search-button" class="btn btn-outline-success fontStyle text-white font-weight-bold" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+    <!--Slider Section-->
+    
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Image/5.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="Image/3.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="Image/4.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="Image/5.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="Image/6.webp" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      
+
+
+     
+
+      <!--Catagory Plant Narayanganj-->
+      <div class="container text-center">
+        <h4 style="color: #083214; margin-top: 20px;  margin-bottom: 20px;">প্ল্যান্টসের ধরণ অনুসারে কেনাকাটা করুন - নবীগঞ্জ নার্সারি</h4>
+        <div class="row">
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+                <img width="100%" src="Image/বনসাই-প্লান্টস-.jpg" alt="">
+                <p>বনসাই-প্লান্টস</p>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+                <img width="100%" src="Image/এভিনিউ-প্লান্টস-.jpg" alt="">
+                <p>এভিনিউ-প্লান্টস</p>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+                <img width="100%" src="Image/এয়ার-প্লান্টস-.jpg" alt="">
+                <p>এয়ার-প্লান্টস</p>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+                <img width="100%" src="Image/সুককুলেন্ট-প্লান্টস-.jpg" alt="">
+                <p>সুককুলেন্ট-প্লান্টস</p>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+                <img width="100%" src="Image/কনিফার-প্লান্টস-.jpg" alt="">
+                <p>কনিফার-প্লান্টস</p>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4 ">
+                <img width="100%" src="Image/কার্নিভৰুস-প্লান্টস-.jpg" alt="">
+                <p>কার্নিভৰুস-প্লান্টস</p>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+                <img width="100%" src="Image/কোকেডামা-প্লান্টস-.jpg" alt="">
+                <p>কোকেডামা-প্লান্টস</p>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+                <img width="100%" src="Image/ক্যাকটাস-প্লান্টস-.jpg" alt="">
+                <p>ক্যাকটাস-প্লান্টস</p>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+                <img width="100%" src="Image/ক্রিপার-প্লান্টস-.jpg" alt="">
+                <p>ক্রিপার-প্লান্টস</p>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+                <img width="100%" src="Image/ক্লাইম্বার-প্লান্টস-.jpg" alt="">
+                <p>ক্লাইম্বার-প্লান্টস</p>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+                <img width="100%" src="Image/পাম-প্লান্টস-.jpg" alt="">
+                <p>পাম-প্লান্টস</p>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+                <img width="100%" src="Image/একুয়াটিক-প্লান্টস-.jpg" alt="">
+                <p>একুয়াটিক-প্লান্টস</p>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+                <img width="100%" src="Image/পেরেননিয়েল-প্লান্টস-.jpg" alt="">
+                <p>পেরেননিয়েল-প্লান্টস</p>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+                <img width="100%" src="Image/ফলের-চারাগাছ-.jpg" alt="">
+                <p>ফলের-চারাগাছ</p>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+                <img width="100%" src="Image/ফার্ন্স-.jpg" alt="">
+                <p>ফার্ন্স</p>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+                <img width="100%" src="Image/ফিকাস-প্লান্টস-.jpg" alt="">
+                <p>ফিকাস-প্লান্টস</p>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+                <img width="100%" src="Image/ফুলের-চারাগাছ-.jpg"">
+                <p>ফুলের-প্লান্টস</p>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+                <img width="100%" src="Image/সিক্যাড-প্লান্টস-.jpg" alt="">
+                <p>সিক্যাড-প্লান্টস</p>
+            </div>
+        </div>
+      </div>
+
+
+      
+   <!--Delevary Section Bangladesh-->
+   <div class="container-fluid">
+    <div class="row">
+
+        <div class="col-lg-3 topHeader-color pt-2 pb-2">
+            <div class="container-fluid">
+                <div class="row ">
+                    <div class="col-4 pt-3">
+                        <i  style="font-size: 40px; color: #083214; border: 3px solid #1D550E; padding: 10px;" class="fa-solid fa-people-arrows"></i>
+                    </div>
+                    <div class="col-8 pt-4">
+                        <h5 style="color: #083214;">অনলাইন নার্সারি বাংলাদেশ</h5>
+                        <p style="font-size: 12px;">১০০K+ মানুষ আমাদের সাথে যুক্ত রয়েছেন। আপনিও যুক্ত হন।</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 topHeader-color pt-2 pb-2">
+            <div class="container-fluid">
+                <div class="row ">
+                    <div class="col-8 pt-4">
+                        <h5 style="color: #083214;">সারাদেশে ডেলিভারি</h5>
+                        <p style="font-size: 12px;">আমরা বাংলাদেশের যেকোনো কুরিয়ার মাধ্যমে ডেলিভারি করি।</p>
+                    </div>
+                    <div class="col-4 pt-3">
+                        <i  style="font-size: 40px; color: #083214; border: 3px solid #1D550E; padding: 10px;" class="fa-solid fa-truck-fast"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="col-lg-3 topHeader-color pt-2 pb-2">
+            <div class="container-fluid">
+                <div class="row ">
+                    <div class="col-4 pt-3">
+                        <i  style="font-size: 40px; color: #083214; border: 3px solid #1D550E; padding: 10px;" class="fa-solid fa-truck-fast"></i>
+                    </div>
+                    <div class="col-8 pt-4">
+                        <h5 style="color: #083214;">ট্রাস্টেড শিপিং
+                        </h5>
+                        <p style="font-size: 12px;">বিসশস্ততার সাথে ডেলিভারি হয়, যেকোনো সমস্যায় ১০০% রিফান্ড করি।</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 topHeader-color pt-2 pb-2">
+            <div class="container-fluid">
+                <div class="row ">
+                    <div class="col-8 pt-4">
+                        <h5 style="color: #083214;">১২/৭ সাপোর্ট</h5>
+                        <p style="font-size: 12px;">নার্সারি সংক্রান্ত যেকোনো সমস্যার সমাধান ও পরামর্শ পেতে যোগাযোগ করুন।</p>
+                    </div>
+                    <div class="col-4 pt-3">
+                        <i  style="font-size: 40px; color: #083214; border: 3px solid #1D550E; padding: 10px;" class="fa-solid fa-user-shield"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>  
+  </div>
+
+
+
+
+
+
+
+
+
+  <!--Popular catagory plants-->
+
+
+  <div class="container text-center">
+    <h4 style="color: #083214; margin-top: 20px;  margin-bottom: 20px;">জনপ্রিয় ক্যাটেগরি অনুসারে কেনাকাটা করুন
+        - নবীগঞ্জ নার্সারি</h4>
+    <div class="row">
+        <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+            <img width="100%" class="rounded-pill mb-2" src="Image/ফলের-গাছ-.webp" alt="">
+            <p>ফলের-গাছ</p>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+            <img width="100%" class="rounded-pill mb-2" src="Image/ফুলের-গাছ-.webp" alt="">
+            <p>ফুলের গাছ</p>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+            <img width="100%" class="rounded-pill mb-2" src="Image/বনসাই-গাছ-.webp" alt="">
+            <p>বনসাই গাছ</p>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+            <img width="100%" class="rounded-pill mb-2" src="Image/আম-গাছ.webp" alt="">
+            <p>আম গাছ</p>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+            <img width="100%" class="rounded-pill mb-2" src="Image/বাঁশ-গাছ-.webp" alt="">
+            <p>বাঁশ গাছ</p>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+            <img width="100%" class="rounded-pill mb-2" src="Image/গোলাপ-গাছ-.webp" alt="">
+            <p>গোলাপ গাছ</p>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+            <img width="100%" class="rounded-pill mb-2" src="Image/ক্যাকটাস-গাছ-.webp" alt="">
+            <p>ক্যাকটাস গাছ</p>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+            <img width="100%" class="rounded-pill mb-2" src="Image/টুলস-.webp" alt="">
+            <p>টুলস</p>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+            <img width="100%" class="rounded-pill mb-2" src="Image/মাটি-.webp" alt="">
+            <p>মাটি</p>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+            <img width="100%" class="rounded-pill mb-2" src="Image/সার-.webp" alt="">
+            <p>সার</p>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+            <img width="100%" class="rounded-pill mb-2" src="Image/টব-.webp" alt="">
+            <p>টব</p>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+            <img width="100%" class="rounded-pill mb-2" src="Image/নুড়ি-পাথর-.webp" alt="">
+            <p>নুড়ি পাথর</p>
+        </div>
+       
+    </div>
+  </div>
+
+  <br><br>
+
+
+<!--online nursary blog-->
+<div class="container-fluid topHeader-color p-5">
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+            <h5 class="text-ColourSecond">অনলাইনে গাছের চারা এখন হাতের মুঠোয় - অনলাইন নার্সারি বাংলাদেশ </h5>
+                <br>
+            <p style="font-size: 12px;">
+                অনলাইনে গাছের চারা কিনতে আর নেই কোনো ঝামেলা। আজই অর্ডার করুন আপনার পছন্দের গাছগুলি, আর মাত্র ৩ দিনের মধ্যে পেয়ে যান আপনার অর্ডারকৃত চারাগাছ। নার্সারি প্লান্টস বাংলাদেশ বিশ্বস্ততার সাথে সারা দেশে কুরিয়ার ও হোম ডেলিভারি করে থাকে।
+            </p>
+
+            <p  style="font-size: 12px;">
+                এখানে নার্সারি গাছ, Fol, Ful, ফল, ফুল সহ সকল প্রকার নার্সারি পণ্যের পাশা পাশি সুন্দর ফুলের ছবি, ফলের ছবি, লাভ ফুলের ছবি, রজনীগন্ধা ফুল, জুঁই ফুল, ফুলের নাম, অপরাজিতা ফুল, ডুমুর ফল, পদ্ম ফুল, টগর ফুল, কদম ফুল, পলাশ ফুল, বেলি ফুল, গোলাপ ফুলের ছবি, জবা ফুল, শিউলি ফুল, ড্রাগন ফল, ফুলের ছবি, হাসনাহেনা ফুল, বিভিন্ন ফুলের ছবি, ইত্যাদি পাওয়া যায়। 
+            </p>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-12 d-flex justify-content-center">
+            <img src="Image/6-300x300.png" alt="">
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  
+		<!--<script src="./bootstrap/js/bootstrap.bundle.js"></script>-->
+</body>
+</html>

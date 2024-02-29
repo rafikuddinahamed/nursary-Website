@@ -1,0 +1,38 @@
+.topHeader-color{
+    background-color: #D7EBDF !important;
+}
+.topHeader-textColor{
+    color: #083214 !important;
+}
+.topHeader-bg{
+    background-color: #083214 !important;
+}
+
+.nav-logo{
+    width: 100px;
+}
+
+
+.fontStyle{
+    font-family: 'Noto Sans Bengali', sans-serif;
+}
+
+
+
+.text-Colour{
+    color: #276909 !important;
+}
+
+.text-ColourSecond{
+    color: #5A854C !important;
+}
+
+#search-button:hover{
+    color: white !important;
+}
+
+.border-Colour{
+    border: 1px solid #eaede9;
+}
+
+
